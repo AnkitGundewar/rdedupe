@@ -13,7 +13,7 @@ test:
 	cargo test 
 
 build-release:
-	@echo "Building release version for platfomr $(shell uname -s)"
+	@echo "Building release version for platform $(shell uname -s)"
 	cargo build --release 
 
 run:
